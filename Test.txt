@@ -1,0 +1,114 @@
+1.What is regression? What is retesting?
+Regresion:We perform it to verify if a code change has not broke the funcion of the application.
+Running again the tests in order to verify that previously software (program/ app) still work alright after change.
+Re-testing: We finde a bug and we report it.We perform the re-testing after the developer fix the bug.
+We finde and report a bug and after it is repaired we test it again to make sure that the application succesfully pass the test and the defect is fixed.
+
+
+2.What is the relationship between the following: error, bug, defect, fault, failure.
+An error is a mistake, misconception, or misunderstanding on the part of a software developer or the contact person between the client and developer.
+A bug is the result of a coding. An Error found in the development environment before the product is delivered to the customer. 
+Defect is an error found after the application goes into production. It is the deviation of the customer requirement.
+A fault is introduced into the software as the result of an error.  It represents an incorrect step or process which causes the program to perform in unanticipated manner. 
+A failure is the inability of a software system to perform its required functions (creadted following the requirements). Usually it is detected by the tester or the user.
+ 
+3.Name the difference between agile & v-model. (Please specify some roles and cycles for these)
+V-Model is very rigid compared with the Agile, Agile principles are: flexibility,adaptabillity and collaboration.
+On V-model each phase must be completed before the next phase and V-shaped life cycle is a sequential path of execution processes,compared with Agile, where cycles are divided up into smaller modules.
+
+On V-Model is any changes happend midway, then the test documents along with requirement document have to be undated, compare with Agile where if a change happend it dosen't affect to much the hole process.
+On V-model the requirements are clearly defined and on Agile the solution involve throught the collaborative effort of self-organizatuon and criss-funcional teams and the customers.
+
+V-model lifecycle: On the each phase, paralled activities can be done : code -> TEST CASES:unit test/low level design ->INTEGRATION TEST PLAN: system test/high level design ->SYSTEM TEST PLAN:integration test/functional specification ->ACCEPTANCE TEST PLAN:acceptance test /requirements specification.
+Agile lifecycle:Iteration 1 :Requirements->Iteration2:Incremental->Iteration3 :Incremental ...
+
+4.Please state what is black box testing? How about white box testing? You can also give an example.
+Under Black box testing, we test the software from a user’s point of view, but in White box, we see and test the actual code.
+Black box testing is realized without code access. The tester creates the rests useing the specification orother kind of model of what the system should do. It use case testing.
+Example:The "sign in " page of a application.
+White box testing is realized with code access. The starting point of testing is the code.
+Example: An web application used to calculate the sum.
+
+5.In the images folder you have a login form. Create Test Cases for the given form.
+
+Please state the testing types(functional, non-functional, black box, white box, design technique) for each TC created.
+
+Functional test : (White box)
+1.Scenario:Verify Create account Function
+Test case:Enter Valid Name, Valid E-mail and Valid Password
+Pre-Condition Valid E-mail and Valid Password
+Steps:Enter name,Enter E-mail, Entar Password, Click "Create Account Button"
+Test data: Valid name, valid username, valid password
+Expected result: Successful create account
+
+Scenario:Verify Create account Function
+Test case:Enter Invalid Name, Valid E-mail and Valid Password
+Pre-Condition Invalid name, Valid E-mail and Valid Password
+Steps:Enter name,Enter E-mail, Entar Password, Click "Create Account Button"
+Test data: Invalid name, valid username, valid password
+Expected result: The message" The name, e-mail and password you enteed don't match"
+
+Analogue with invalid E-mail and Incalid Password.
+
+2.Scenario:Verify Sign In Function
+Test case:Enter Valid E-mail and Valid Password
+Pre-Condition Valid E-mail and Valid Password , Account already created
+Steps:Enter E-mail, Entar Password, Click "Sign In Button"
+Test data:  valid username, valid password
+Expected result: Successful sign in
+
+Analogue with invalid E-mail and Incalid Password.
+
+3. Scenario: Forget password 
+Test case:Forgot your password
+Pre-Condition Valid E-mail and Invalid Password , Account already created
+Steps:Enter E-mail, Entar Password, Click "Forgot password"
+Test data:  valid username, Invalid password
+Expected result: Successful redirection to "Change Password Page"
+
+Non-Functional test: (Gray Box)
+Test1. The link should be accessed from all the browsers.
+Test2: The filds  can be completed.
+Test3. The letters from the password are covered with stars.
+
+Design Test: (Black Box)
+1.The logo is written correctly
+2.The logo is positioned correctly
+3.The words, sentances are written corectly.
+4.The logo is visible.
+5.The buttons are visible.
+6.The page is designed following the customer requirements. 
+
+
+6.Consider that you have found a defect in the form for the previous exercise. Create a bug report for it.
+BUG REPORT
+BUG ID
+?	An identification number for the bug:01
+?	Representative title for the bug: Duplicate account.
+?	Reporter:Anca Damir
+?	Data:4/24/2019
+
+BUG OVERVIEW
+?	Short description: When I insert the name,e-mail adress and the password on "Create Account" page,  I create an account . If I insert it one more time I create another account, duplicate. The web application allow me to create many accounts using the same e-mail and password without any error message or any direction to "Sign In" page.
+?	Screenshot/recorder: Bug01.jpg
+?	URL:https://github.com/alesanu/pentastagiu_modul1_test/blob/devel/images/diprella_login.gif
+ENVIRONMENT
+
+?	Operating system: Windows Edge
+?	Browser: Chrome
+BUG DETAILS
+?	The steps to reproduce the bug: 
+1. Access the link : https://github.com/alesanu/pentastagiu_modul1_test/blob/devel/images/diprella_login.gif
+2. Type the name : Anca ,e-mail Ancastefaniadamir@gmail.com and the password Password123.
+3. I create the account.
+4. Go back to the "Create account" page and add the same name, e-mail adress and password.
+5. I create another account using the same datas.
+?	Expected result: Redirection to "Sign In page" with the message " The account already exist, please Sign In"
+?	Actual result: A new account is created.
+?	Description: The web appliation allow me to create multiple accounts using the same datas. I should receive an error message as : " The account already exist, please Sign In"
+BUG TRACKING
+?	Priority: 3
+?	Severity: 1
+?	Assigned to: Development Team + Name 
+NOTES
+?	Notes: Dear team, please assist .
