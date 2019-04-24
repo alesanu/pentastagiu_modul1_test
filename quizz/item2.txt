@@ -1,1 +1,8 @@
 What is the relationship between the following: error, bug, defect, fault, failure.
+
+ERROR: Error normally arises in software; it leads to change the functionality of the program.
+BUG: A bug is the result of a coding error. An Error found in the development environment before the product is shipped to the customer. 
+DEFECT:  It can be simply defined as a variance between expected and actual. It is the deviation of the customer requirement.
+FAILURE: A failure is the inability of a software system or component to perform its required functions within specified performance requirements.When a defect reaches the end customer it is called a Failure. 
+FAULT: A fault is introduced into the software as the result of an error. 
+

@@ -1,1 +1,15 @@
 Please state what is black box testing? How about white box testing? You can also give an example.
+
+Black Box:
+Black-box testing is a method of software testing that examines the functionality of an application without peering into its internal structures or workings. 
+This method of test can be applied virtually to every level of software testing: unit, integration, system and acceptance. 
+It is sometimes referred to as specification-based testing.
+
+Boundry value analysis
+Echivalance partition
+
+White Box
+
+Code is visible, the starting point and focust is the code.  
+
+Unit testing

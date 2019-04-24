@@ -1,3 +1,37 @@
 In the images folder you have a login form. Create Test Cases for the given form.
 
 Please state the testing types(functional, non-functional, black box, white box, design technique) for each TC created.
+functional testing:
+
+Test Cases:
+1. Sign In with an existing account
+
+Preconditions:
+- an account has already been created
+
+Steps:
+1. Navigate to the Sign In page;
+2. Enter the correct email and password;
+3. Press Sign In.
+
+Expected behavior: The user is logged in to the page.
+
+2. Sign Up with an email address
+
+Steps:
+1. Navigate to the Sign Up page;
+2. Enter a Name, an Email and a Password;
+3. Press Sign Up.
+
+Expected behavior: The user is signed up and an account is created.
+
+design technique
+3. Verify the Sign in form and Create Account form are on the same page 
+
+Preconditions:
+- an slide is present and shows what you need to see
+Steps:
+1. Open the url
+2. Click on Sign in page
+
+Expected behavior: The slide hides the create page.

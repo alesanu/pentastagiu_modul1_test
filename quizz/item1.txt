@@ -1,1 +1,4 @@
 What is regression? What is retesting?
+
+Regression is retesting the parts that can be aftected after a change is done.
+Retesting is testing again what was fixed.

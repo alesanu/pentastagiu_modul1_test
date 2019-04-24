@@ -1,1 +1,13 @@
 Consider that you have found a defect in the form for the previous exercise. Create a bug report for it.
+
+Slide not working
+
+
+When clicking on the slide to create a new account the slide is not moving.
+
+Steps to reproduce:
+1. Open url
+2. Click on the slide
+
+Actual results:The slide is not working.
+Expected results:The slide hides the create page.

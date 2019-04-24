@@ -1,1 +1,12 @@
 Name the difference between agile & v-model. (Please specify some roles and cycles for these)
+
+
+
+V-model: Testing happens at the end, right before release. The testing gets “squished” because coding takes longer than expected, and because teams get into a code-and-fix cycle at the end.
+Roles: Project managers, stakeholder
+
+Agile: is iterative and incremental. This means that the testers test each increment of coding as soon as it is finished.
+Iteration might be as short as one week, or as long as a month. 
+The team builds and tests a little bit of code, making sure it works correctly, and then moves on to next piece that needs to be built. 
+Programmers never get ahead of the testers, because a story is not “done” until it has been tested.
+Roles: Scrum master, Product owner, stakeholder
