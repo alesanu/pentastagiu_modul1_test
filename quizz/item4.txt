@@ -1,1 +1,2 @@
 Please state what is black box testing? How about white box testing? You can also give an example.
+hen you do a  Black-box testing(acceptance testing, system testing), you don't have aces to the code and on White-box (unit testing, integration testing)testing you have acces to the code

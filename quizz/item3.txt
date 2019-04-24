@@ -1,1 +1,8 @@
 Name the difference between agile & v-model. (Please specify some roles and cycles for these)
+
+V-model cycle:
+requirements analysis
+system design
+coding
+system testing
+acceptance testing

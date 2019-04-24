@@ -1,1 +1,3 @@
 What is the relationship between the following: error, bug, defect, fault, failure.
+
+A persons erros brings o a bug or defect, witch is the same thing, that may bring to a sistem fault or failure ;D 

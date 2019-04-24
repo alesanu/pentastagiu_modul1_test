@@ -1,1 +1,3 @@
 What is regression? What is retesting?
+Regression is when a fixed bug brings ather bugs
+Retesting is when you retest a specific function

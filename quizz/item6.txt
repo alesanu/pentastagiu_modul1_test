@@ -1,1 +1,14 @@
 Consider that you have found a defect in the form for the previous exercise. Create a bug report for it.
+The background color is not as specified in the design.
+
+Preconditions
+User on the log-in page
+
+Steps to reproduce
+Check the background color page
+
+Expected result
+The color should be #002233
+
+Actual result
+The color is #FFFFFF
