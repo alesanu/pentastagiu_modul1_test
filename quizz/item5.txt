@@ -1,3 +1,15 @@
 In the images folder you have a login form. Create Test Cases for the given form.
 
 Please state the testing types(functional, non-functional, black box, white box, design technique) for each TC created.
+
+TC1:
+Open the page on multiple browsers to check the compatibility. (non-functional)
+
+TC2:
+Try to input random text instead of a properly formatted email address. It should give an error. (functional)
+
+TC3:
+Try input boxes for SQL Injection. (black-box)
+
+TC4:
+Create tests for all the executable code (javascript) and see how much coverege there is. (white box)

@@ -1,1 +1,7 @@
 Name the difference between agile & v-model. (Please specify some roles and cycles for these)
+
+Agile is a developement style where work is done in a predefined period of time (one week, or one month etc).
+The app is split in smaller parts, and each iteration is exected to bring only a few new functionlities.
+The development and testing is done in the same time.
+
+V-model separates the development process in different parts. It starts with coding and unit test, than folllows with integration, system and acceptance testing succesively.
