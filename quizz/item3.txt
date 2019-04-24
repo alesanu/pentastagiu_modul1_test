@@ -1,1 +1,6 @@
 Name the difference between agile & v-model. (Please specify some roles and cycles for these)
+V-model represent a software development model that is based on the relationship between
+each phase of the SDLC and the testing is done at the end of the project development.
+
+Agile testing represent a software development practice that involved testing after each
+phase of the SDLC is done. 

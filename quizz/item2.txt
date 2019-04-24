@@ -1,1 +1,5 @@
 What is the relationship between the following: error, bug, defect, fault, failure.
+Well, usually tester(the humans) do mistakes or errors. Then that error lead to a defect which can be called bug or fault in the software
+ application code.
+Also a defect in the system can cause a failure.
+

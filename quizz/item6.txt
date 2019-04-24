@@ -1,1 +1,21 @@
 Consider that you have found a defect in the form for the previous exercise. Create a bug report for it.
+
+BUG REPORT:
+Title: 'Forgot your password' button does not work.
+
+How to reproduce: 
+Step 1. Select 'Forgot your password' button -> An message from webpage is displayed: Unable to open this page.
+
+Expected workflow: When 'Forgot your password' button is selected than a new view is displayed.
+
+Environment: Chrome, Firefox.
+
+Version: 14.2.1
+
+Priority: Medium
+
+Status: Failed
+
+Reported by: Marius Cioata
+
+

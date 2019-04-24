@@ -1,3 +1,39 @@
 In the images folder you have a login form. Create Test Cases for the given form.
 
 Please state the testing types(functional, non-functional, black box, white box, design technique) for each TC created.
+
+Functional + blackbox testing:
+TEST CASE 1.A:
+DESCRIPTION: Check the login functionality using valid credentials
+ Preconditions: A valid user with a valid password is needed.
+Steps:
+Step 1: Go to diprella application. Expected Results: Diprella application is displayed correctly with login screen selected by default.
+Step 2: Login in the application using the user and the password from the preconditions. Expected Results: The login is performed correctly and the Home view is displayed properly.
+Environment: Can be tested on WINDOWS 10.
+
+Non-functional - Performance testing
+TEST CASE 1.B.:
+Description: Check the application load time at the login using valid credential.
+Steps:
+STEP1: Go to diprella application. Expected Results: Diprella application is displayed correctly with login screen selected by default.
+STep2: Login in the application using a valid user and password.Check the application load time after Sign in button is selected. Expected results: After Sign in button is selected it takes 7.3s until Home view is displayed.
+
+White box testing
+
+TEST CASE 1.C:
+
+DESCRIPTION: Check if the login password contains minimum 8 characters.
+
+Steps: 
+Step 1: Check if the field can be empty. Expected results:A message from webpage is displayed once Sign in button is selected and the password field is empty and the log in it's not performed.
+
+Step 2: Check is the password can contain less than 8 characters. Expected results: when trying to configure a new password for a user that contain less than 8 char then a message is displayed when trying to save: The password should contain at least 8 characters.
+
+Design technique:
+
+TEST CASE 1.D:
+DESCRIPTION: Check the display of social media buttons.
+Step 1. go to diprella application. Expected Results: Diprella application is displayed correctly with login screen selected by default.
+Step 2: Check the display of the social media buttons on the loggin screen. Expected results: The social media buttons are displayed correctly
+between the 'Sing in to Diprella' and 'or use you're email account' labels. Each button have drawn the logo of the corresponding social media app.
+

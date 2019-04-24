@@ -1,1 +1,4 @@
 What is regression? What is retesting?
+Regression testing represents the a testing type which is performed every time when a new functionality/feature is added in the actual 
+version of the software. 
+Retesting is an operation performed for example when a bug is fixed.

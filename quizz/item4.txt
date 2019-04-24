@@ -1,1 +1,12 @@
-Please state what is black box testing? How about white box testing? You can also give an example.
+Please state what is black box testing? How about white box testing? You can also give an
+ example.
+ 
+Black box testing is a software testing method in which a part of the internal structure 
+is tested but is not known by the tester.E.g. When we test a website using a browser without 
+knowing the internal code. E.G. DECISION TABLE TESTING, STATE TRANSITIONS TESTING.
+
+White box testing is a software testing method that is opposite the blackbox testing by 
+meaning the tester will test the internal structures of an application. EXAMPLE: UNIT TESTING. 
+
+
+
