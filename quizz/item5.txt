@@ -1,3 +1,21 @@
 In the images folder you have a login form. Create Test Cases for the given form.
 
+
+
 Please state the testing types(functional, non-functional, black box, white box, design technique) for each TC created.
+Black-box
+1. Check if "Sign UP" button works when pressed. - functional
+2. Check if "SIGN IN"button works when pressed. - functional
+3. When entered valid Name , Email , Password and pressing Sign up button if the account is created. - functional
+4. Checking "Name" field if it accepts only letters - functional
+5. Checking "Name" field if it accepts special characters - functional
+5. Checking Email field if a starting with special characters works - functional
+6. Checking if Email field works without '@' character - functional
+7. Checking "Password" field if accepts special characters - functional
+8. Checking Password field if it works with space as first character. - functional
+9. Checking if the buttons for facebook, google+, linked in work 
+10. The time it takes to create the account - non functional
+12. Checking sign In field, if pressing the Sign IN button gets the user to a login page where he can put his user/email/password - functional
+13. Checking if the the Sign up form is on a HTTPS connection- non functional
+
+
