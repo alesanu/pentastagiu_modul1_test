@@ -1,1 +1,20 @@
 Consider that you have found a defect in the form for the previous exercise. Create a bug report for it.
+
+Bug number:1
+
+Bug title: Account created with malformed email address
+
+Priority: Critical
+
+Environment: App version 1.x tested on Google Chrome browser on Windows 10
+
+Description: An user cand create an account using a malformed email address. There is no warning in the front end and the server doesn't check the validity.
+
+Steps to reproduce: 
+-Open the register form
+-Put a malfomed email adress (ex. wrongemail)
+-Press the submit button 
+-Then login with those credentials.
+
+Expected result: a message to inform me that the email is not valid or an error message from the server.
+

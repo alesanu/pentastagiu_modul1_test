@@ -1,1 +1,5 @@
 What is regression? What is retesting?
+
+Retesting means running the test again to see if the problem was fixed.
+
+Regression testing ensures that new changes don't break components that worked before.

@@ -1,1 +1,4 @@
 What is the relationship between the following: error, bug, defect, fault, failure.
+
+A defect is a problem found by the developer, a bug is the same thing but found by the tester, and failure when the problem is discovered in production.
+An error is usually a problem that doesn't allow the app to be build.
