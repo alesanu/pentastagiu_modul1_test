@@ -1,1 +1,4 @@
-What is regression? What is retesting?
+regression is when the application was updated, when a new functionality was added.. when a new update was made to the app and we test it again to see if it works like it was working before the update.
+retesting is when we discovered a bug, we gave it back to the developer to fix it, he says the bug was fixed, and then we retest to see if it was fixed.
+
+what is regression? What is retesting?
