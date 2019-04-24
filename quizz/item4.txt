@@ -1,0 +1,9 @@
+Please state what is black box testing? How about white box testing? You can also give an example.
+BLACK BOX TESTING, also known as Behavioral Testing, is a software testing method in which the internal 
+structure/design/implementation of the item being tested is not known to the tester.
+These tests can be functional or non-functional, though usually functional.
+Exemples :Boundary Value Analysis,Equivalence Partitioning
+WHITE BOX TESTING (also known as Clear Box Testing, Open Box Testing, Glass Box Testing, Transparent Box Testing, 
+Code-Based Testing or Structural Testing) is a software testing method in which the internal structure/design/implementation 
+of the item being tested is known to the tester.
+Exemples :Unit Testing

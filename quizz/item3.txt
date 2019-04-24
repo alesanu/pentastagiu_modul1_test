@@ -1,0 +1,12 @@
+Name the difference between agile & v-model. (Please specify some roles and cycles for these)
+
+V-Model encourages testing preparation to occur in parallel with requirements, design, and development phases
+ and this ideology may be the only similarity between the V-Model and agile forms of testing. However, 
+V-Model can be rigid and less flexible in comparison to agile methodologies.
+The V-Model is a unique, linear development methodology used during a software development life cycle (SDLC)
+Requirment ,Design,
+Agile -Scram Master, Development Team,Product Owner
+V-Model - Project Manager ,User
+
+
+

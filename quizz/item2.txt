@@ -1,0 +1,5 @@
+What is the relationship between the following: error, bug, defect, fault, failure.
+
+A mistake in coding is called Error, error found by tester is called Defect, defect accepted by 
+development team then it is called Bug, build does not meet the requirements then it Is Failure.” 
+DEFECT: It can be simply defined as a variance between expected and actual
