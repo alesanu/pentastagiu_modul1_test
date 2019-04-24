@@ -1,3 +1,14 @@
 In the images folder you have a login form. Create Test Cases for the given form.
 
 Please state the testing types(functional, non-functional, black box, white box, design technique) for each TC created.
+
+
+Functional:
+*Positive
+-Create account with valid data
+*Negative
+-Create account with invalid data
+*Destructive
+Create account with millions of special characters
+*Security
+Insert sql injection on editable fields
