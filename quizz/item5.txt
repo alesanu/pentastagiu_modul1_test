@@ -1,3 +1,62 @@
 In the images folder you have a login form. Create Test Cases for the given form.
 
 Please state the testing types(functional, non-functional, black box, white box, design technique) for each TC created.
+
+after my choice I would make scenarios ))
+
+Scenario: User is able to access Welcome page --- positive,black box
+    When user navigates to Welcome page
+    Then Welcome page has the following elements
+      | Account                |
+      | login                  |
+      | Register a new account |
+
+  Scenario: User is able to log in with valid password and user name --- positive,black box
+    Given user navigates to Welcome page
+    And user clicks on Login link
+    When user logs in with 'admin' username and 'admin' password
+    Then user is redirected to Home page
+    And alert message is displayed 'You are logged in as user "admin".'
+    And Home page has the following elements
+      | Home     |
+      | Entities |
+      | Account  |
+
+  Scenario Outline: User cannot log in with invalid credentials --- positive,black box
+    Given user navigates to Login page
+    When user logs in with '<username>' username and '<password>' password
+    Then error message is displayed 'Authentication failed! Please check your credentials and try again.'
+    Examples:
+      | username | password  |
+      | admin    | password1 |
+      | Noname   | admin     |
+      | Noname   | password1 |
+      |          |           |
+
+  Scenario: User is able to log out --- positive
+    Given user navigates to Login page
+    When user logs in with 'admin' username and 'admin' password
+    Then user is redirected to Home page
+    And user clicks on Account menu and logs out
+    And user is redirected to Welcome page
+
+
+   Given user navigates to Login page 
+    And user clicks on forget password link
+    And user is redirected to Reset Password page
+
+  Scenario: User cannot reset password with an unregistered email
+    When user fills in the email input field with 'test@email.com'
+    And user clicks on Reset Password
+    Then 'error message' is displayed 'E-Mail address isn't registered! Please check and try again' on Reset page
+
+  Scenario Outline: User cannot create other user with incorrect email
+    When user fills in the email input field with '<email>'
+    Then 'validation error' is displayed 'Your e-mail is invalid.' on Reset page
+    Examples:
+      | email                      |
+      | plainaddress               |
+      | test@                      |
+      | @domain.com                |
+      | email.domain.com           |
+      | email@domain.com Joe Smith |

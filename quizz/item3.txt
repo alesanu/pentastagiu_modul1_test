@@ -1,1 +1,7 @@
 Name the difference between agile & v-model. (Please specify some roles and cycles for these)
+Waterfall - which might be more properly called the “traditional” approach, and waterfall model is ideal for projects which have defined requirements,
+and no changes are expected. The waterfall is easy to manage, sequential, and rigid method.
+Agile- a specific type of Rapid Application Development and newer than Waterfall, but not that new, which is often implemented using Scrum, and 
+agile is best suited where there is a higher chance of frequent requirement changes, and is very flexible and it possible to make changes in any phase.
+In Agile process, requirements can change frequently. However, in a waterfall model, it is defined only once by the business analyst.
+In Agile Description of project, details can be altered anytime during the SDLC process which is not possible in Waterfall method.

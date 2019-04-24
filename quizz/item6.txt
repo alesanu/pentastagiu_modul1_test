@@ -1,1 +1,28 @@
 Consider that you have found a defect in the form for the previous exercise. Create a bug report for it.
+
+Bug Name: Application crash on user try to log in.
+Bug ID: 1245
+Area Path: user menu > new user > login
+Build Number: Version Number 10.1
+Severity: HIGH 
+Priority: HIGH 
+Assigned to: Alex Lesanu
+Reported By: Tean Eugen
+Reported On: 24.04.2019
+Reason: Defect
+Status: Open
+Environment: Windows 2010
+
+Description:
+Application crash when user try to log in
+
+Steps To Reproduce:
+1) Navigate to the Welkome page.
+2) Navigate to the Users Menu > log in
+3) Filled log in form with valid data
+4) Clicked on the ‘Save' button
+5) Seen an error page -> Insert values Error
+6) See the attached logs for more information
+7) And also see the attached screenshot of the error page.
+
+Expected result: On clicking SAVE button, should be prompted to a success message “User has been log in successfully”.
