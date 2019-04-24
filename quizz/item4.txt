@@ -1,1 +1,8 @@
 Please state what is black box testing? How about white box testing? You can also give an example.
+
+Black box testing - when the tester does not have access to the code --> ex:when he is testing only the interface of a webpage without knowing how it was created.
+
+White box testing - when the person testing has access to code (used mainly by developers to verify their code)
+when the developer is testing his own code to see if it gives any errors.
+
+
