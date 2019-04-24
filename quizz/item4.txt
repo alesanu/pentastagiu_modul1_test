@@ -1,1 +1,4 @@
 Please state what is black box testing? How about white box testing? You can also give an example.
+
+Black box testing is the testing that takes place without having access to the code. - such as: Boundary Value Analysis.
+White box testing is the testing that takes place while having access to the code. - such as: Unit Tests/Decision Coverage.

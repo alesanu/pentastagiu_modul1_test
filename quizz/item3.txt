@@ -1,1 +1,21 @@
 Name the difference between agile & v-model. (Please specify some roles and cycles for these)
+
+V-model is a software development model that is based on the relationships between each phase of the development life cycle as described in a typical Waterfall model of software development and its associated phase of testing.
+Agile testing is an iterative-incremental software development model that follows the rules of the agile manifesto, treating software development as the customer of testing.
+
+
+The cycle usually consists of Requirement Analysis, Design, Development, Testing and Maintenance.
+
+Roles in the Agile model: 
+- Product Owner
+- Scrum Master/Kanban Coach
+- Development Team (Testers/Developers alike)
+- Stakeholders
+
+
+Roles in the V-Model:
+- Developers
+- Testers
+- Stakeholders
+- Project Manager
+- User

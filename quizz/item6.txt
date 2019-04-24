@@ -1,1 +1,19 @@
 Consider that you have found a defect in the form for the previous exercise. Create a bug report for it.
+
+Bug report:
+Sign In/Sign Up slider animation gets stuck while scrolling
+
+Priority: Urgent
+Severity: High
+Environment: Production
+Browser: latest version of Chrome
+
+A bug has been found in the Sign In/Sign Up form's slider animation. Scrolling while the slider animation is functioning will break the form, making the animation stuck in the position it was at the time of the scrolling.
+
+Steps to reproduce:
+1. Go on the Sign In/Sign Up page;
+2. If on the Sign In screen -> press the Sign Up button // If on the Sign Up screen -> press the Sign In button;
+3. Start scrolling imediatelly after the button has been pressed, while the slider is still moving.
+
+Expected behavior: Scroll does not impact the slider animation and flows until the end, switching views.
+Current behavior: Scrolling breaks the form, making the animation stuck in the position it was at the time of the scroll, rendering the fields/buttons unable to press.
