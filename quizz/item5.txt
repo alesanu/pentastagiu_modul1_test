@@ -1,3 +1,23 @@
 In the images folder you have a login form. Create Test Cases for the given form.
 
 Please state the testing types(functional, non-functional, black box, white box, design technique) for each TC created.
+
+Functional tests:black box
+ C1- Test create account function
+Enter the required information in the given fields and click on Sign up
+expected result: account is created, validation link is sent to user's inbox or user redirected to main page
+ 
+C2- Test sign in function
+Enter the  valid user data in the given fields and click on Sign in
+Expected res.: user is redirected to the main page
+
+C3 - Pressing G+ button allow the user to login/sign up using existing gmail account
+C4 - Forgot password button redirects the user to forgot password page
+
+non-functional:
+C1- Check displayed text for sign in/ sign up tabs
+C2 - Check content for both Sign in/ sign up
+
+
+white box
+C1 - Measuring the switch time between the Sign in/Create account tabs

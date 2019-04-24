@@ -1,1 +1,23 @@
 Consider that you have found a defect in the form for the previous exercise. Create a bug report for it.
+
+
+Summary:
+Unable to login with valid credentials
+
+Prerequisites
+valid user credentials
+
+Description:
+Even after enterning valid credentials the user is not able to login
+Steps to reproduce:
+Complete the required email and password fields
+Press sign in button
+
+Expected result:
+After clicking the button user is redirected to the main page
+
+Actual result:
+The user stays on the same page, no error message is shown
+
+Priority: P1
+Severity: high

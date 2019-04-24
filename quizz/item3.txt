@@ -1,1 +1,3 @@
 Name the difference between agile & v-model. (Please specify some roles and cycles for these)
+Agile: small teams, incremental working process, testing can start as early as possible
+v-model: parallel development and testing process

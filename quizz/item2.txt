@@ -1,1 +1,4 @@
 What is the relationship between the following: error, bug, defect, fault, failure.
+
+failure: a human error that causes an error
+bug, defect, fault, error - a deviation from specified behaviour

@@ -1,1 +1,3 @@
 Please state what is black box testing? How about white box testing? You can also give an example.
+Black box testing: techniqe used to test the product functionality without access to the code.
+White box testing: testing with access to the code,running the program itself, may include also structural testing

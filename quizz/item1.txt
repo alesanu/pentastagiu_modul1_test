@@ -1,1 +1,7 @@
 What is regression? What is retesting?
+
+Regression:
+verify that a change in the code or adding a new feature has not affected the existing ones
+
+Retesting:
+Verifying that the bug was solved/fixet
