@@ -1,0 +1,6 @@
+error = the code isn't compiled
+bug = the code is compiled and the result might be diffrent than what we expected
+
+
+all of them can make the software not working as expected, or not working at all.
+

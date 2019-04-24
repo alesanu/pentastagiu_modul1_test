@@ -1,0 +1,9 @@
+black-box = is when you don't  have access to source code
+Use case testing
+
+when you test a web page all you can do is to test de clicks and the inputs.
+
+
+white-box = is when you have access to source code
+
+you test a web page, you can test diffrent function and methods.

@@ -1,0 +1,6 @@
+test cases:
+1. enter a correct username, password and click connect sign in 
+
+2. enter a incorrect username, password and click connect sign in 
+
+3. 

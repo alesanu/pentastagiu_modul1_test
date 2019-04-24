@@ -1,0 +1,7 @@
+short descpirion: login the wrong account
+severity : high
+priority : high
+steps : i inserted username : ceva and pass : altceva and the page redirected me to a diffrent account
+actual result : diffrent account
+expected resutl : connect to the specific account.
+

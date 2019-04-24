@@ -1,0 +1,2 @@
+regresion testing = when you make some test then add more features to the app and make the same test again
+retesting = when you do a test and find a bug, it's repaired, and the same test is run again.

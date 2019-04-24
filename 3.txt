@@ -1,0 +1,10 @@
+agile = 
+-increment
+-flexibility
+-adaptability
+
+v-modele = sequantial
+-regid and less flexible
+-defects are found in early stages
+-good for small projects
+-is harder to adapt to changes 
