@@ -1,3 +1,33 @@
 In the images folder you have a login form. Create Test Cases for the given form.
 
 Please state the testing types(functional, non-functional, black box, white box, design technique) for each TC created.
+ 
+
+TC1 - functional
+1. Click on the "Sign In" button in the left hand side of the page
+2. Make sure that the button was clicked
+3. Make sure that the section where the button is gets on the right hand side of the page
+4. On the new page that appears you'll have the email/pwd fields if you have an existing account where you can sign in
+5. If you don't have an account, in the right side you'll have the sign up button where you can create a new account.
+
+TC2 - non-functional - performance
+1. Try to log-in with more than 5 accounts at the same time
+2. Try to put more than 1 email in the field separated by ","
+
+TC3 - black box TC
+As I mentioned in the white box/black box txt:
+1. Press on the Sign in button
+2. When the account/pwd are appearing just have an image copied to clipboard and just ctrl+v the image in one of the fields and see if there's an error popping
+
+TC4 - white box
+1. You already know what you should complete in all fields
+2. Make sure that if you complete the fields correctly 
+2.1. You'll see for e.g. from API a success message - 200
+3. If you don't put for e.g. to an email field where "@" is required you'll get an error message - 400
+
+TC5 - Design technique
+1. Make sure that the design it's the same as the UI/UX 
+2. Make sure that everything corresponds from the design on the front end
+3. The colours are the same, the font and font size are the same
+4. Make sure that the distances are the same, placeholders of the fields are there
+5. Make sure that the transition corresponds - it's not going to left

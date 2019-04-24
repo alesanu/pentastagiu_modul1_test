@@ -1,1 +1,9 @@
 Consider that you have found a defect in the form for the previous exercise. Create a bug report for it.
+
+GIVEN that I'm on the login page
+AND I want to login to my account
+WHEN I complete the email field with an invalid email - e.g.: it doesn't have the "@yyy.com" after it I only put "Bogdan.larger"
+THEN I should be able to access my account
+
+Expected Result: I'm able to see my account page
+Actual Result: I'm getting an error message saying that the email is not valid and put the @ after it. 

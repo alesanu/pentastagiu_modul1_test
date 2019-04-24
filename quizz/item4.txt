@@ -1,1 +1,10 @@
 Please state what is black box testing? How about white box testing? You can also give an example.
+
+
+Black box testing is when the tester isn't aware of the code/design of what was implemented, test are functional for black box testing.
+
+White box is when the tester knows exactly what have been added in code (what feature) and  he doesn't need to search for it, he can see even the code.
+
+Let's take an example of a search field on a web-page
+White box testing knows exactly what's behind that field(what you can search for - letters/numbers/special characters) as for a black box you may try to copy-paste an image in the search field, or any other combinations that won't work.
+ 

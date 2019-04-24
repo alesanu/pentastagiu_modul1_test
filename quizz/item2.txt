@@ -1,1 +1,6 @@
 What is the relationship between the following: error, bug, defect, fault, failure.
+
+
+There's a strong connection for all of these.
+Error might be something that have been missed, bug is something that breaks something depending on its severity.
+ 

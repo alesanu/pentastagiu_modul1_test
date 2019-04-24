@@ -1,1 +1,7 @@
 Name the difference between agile & v-model. (Please specify some roles and cycles for these)
+
+Agile consists in sprints of 2 weeks each sprint, with a release after the sprint. POs, Devs, Testers, preparing the next sprint consist in a grooming where a PO/dev/tester are meeting to discuss the tickets which are going to be part of the next sprint.
+A sprint ends with a Demo/Planning. 
+
+V-model means the last phase of Waterfall model which is the opposite of agile, longer sprints - up to 3-4 months, preparing the test-cases before the code is on environment, testing takes longer than on an agile sprint, defects/bugs will be resolved in the future not in the current sprint.
+ 
