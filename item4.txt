@@ -1,0 +1,10 @@
+Please state what is black box testing? How about white box testing? You can also give an example.
+
+Black box testing consists in examining the part of the program that is visualized by the customer, like a login page. In black box, you test the page/app according to the specifications that was received and compare the actual result (what you have obtained after you run the parts of the page/app) with expectations(what customers want, what is delivered in Requirements).
+
+White testing is a depth test, where the tester test the code itself(the backstage of the program/webpage/app), and examines the behaviour of the program/webpage/app. 
+
+Because black box testing examines the front of an app for example, and white testing examines the backstage, both can be used to achieve good results in finding bugs/errors etc.
+
+An example for what I said before is IntelliJ desktop app. IntelliJ is a programming interface (IDE) that has an interface (what a normal people can see) and a back (the code - what a programmer / tester can see). The front or the interface (keeping the name previously said), can be tested with black box technique. The tester, test differents parts of the program with the scope of findings bugs / errors, by pressing differents buttons that are crucial for a normal person, examining the actual result with expectations.
+The back of IntelliJ is the code behind the interface. It can be tested with white-box testing technique where a tester examines the code, test differents part of it that are crucial (it depends on timeline, resources, budget etc). 

@@ -1,0 +1,4 @@
+What is regression? What is retesting?
+Regression testing is used especially when you want to retest the whole work of a developer. For example, you have tested 30% of the app/program/website, and you have found at least, a bug. You delivered the report to developer and after you received the new part of the program, you test the part where you have found the bug and another parts of code where you previously didn't find a problem just to be sure that another bugs won't appear.
+
+Retesting consists in examining the part of the program/code where you have found the bug previously to be sure that developer resolved it.

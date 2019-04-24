@@ -1,0 +1,53 @@
+In the images folder you have a login form. Create Test Cases for the given form.
+
+Please state the testing types(functional, non-functional, black box, white box, design technique) for each TC created.
+
+Test cases - Part 1: Normal sign-up.
+1. Enter on the webpage, and examines the loading speed.
+2. Introduce the name in Name textbox with different characters.
+3. Introduce an e-mail in e-mail textbox using @ and different e-mail providers.
+4. Introduce a password, using different characters like #,@,* etc.
+5. Press the sign-up button and wait for the result.
+
+
+Test cases - Part 2: Sign-up with Facebook, Google+, LinkedIn
+1. Enter on the webpage, examine the loading speed.
+2. Examine if the texts on the webpage was correctly written.
+3. Press the Facebook button / Google Button / LinkedIN button
+4. Accept the terms, and wait for a result.
+
+Test cases - Part 1 for Sign-in:
+1. Enter the e-mail adress in e-mail text-box.
+2. Enter the password with different characters in composition in password text-box.
+3. Press the button sign-in and wait for results  / redirect.
+
+Test cases - Part 1 - alternative.
+1. Enter the e-mail adress in e-mail text-box.
+2. Enter the passowrd with different characters in composition in passowrd text-box.
+3. Press the "Forgot your password" text redirects and wait for the redirecting.
+
+Test cases - Part 2 - Facebook / Google / LinkedIN sign-in
+1. Press the facebook / google/ linkeding button
+2. See if the login was coressponding with requirements / expectations from customers.
+
+There also concers about the loading speed of the webpages / transitions from sign-in form to sign-up form, and this can be seen and measured in time for response. These concers corresponds to non-functional / black box technique.
+
+The test cases that was written before, corresponds to functional / black box technique with a little of non-functional (see test case 1).
+
+For white-box testing:
+
+Testcase 1:
+1. Test the sign-up part of the script, also examining that corresponding parts name, e-mail,  password (classes).
+2. See the time of response for this part of code.
+Testcase 1 corresponds to white-box and functional and non-functional.
+Testcase 1 can be applied also for sign - in.
+
+Testcase2: Test the code / branches behind facebook, google, linkeding buttons to see if they corresponds or run correctly. - functional / white box technique
+
+Testcase 3: Test the transition from sign-in to sign-up form. - functional with non-functional and white-box.
+
+The design of the page, and transition can be also parts of design testing. 
+
+
+
+

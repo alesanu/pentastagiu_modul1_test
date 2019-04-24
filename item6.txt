@@ -1,0 +1,11 @@
+Consider that you have found a defect in the form for the previous exercise. Create a bug report for it.
+
+Project name: Diprella login.
+The name of the developer: x 
+Test applied: Sign-up test 
+A short description fo the test applied: Pressed the sign-up button after introducing the e-mail, name and password
+The name of the bug/error: sign-up error
+A short description for the bug that appeared: After introducing the informations needed for registering to the webpage, the script has found a serious bug in results that it showed to the customer.
+The harness level of the bug/error: high.
+The line of code where the bug was found: line xy;
+

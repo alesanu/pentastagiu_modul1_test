@@ -1,0 +1,5 @@
+What is the relationship between the following: error, bug, defect, fault, failure.
+
+The error is caused most of the time by a bug who appears in code. Also, the error, can be a stressfull pain when it is caused by customer device or behaviour.
+Also, the fault, can be related with the bug and error - the fault of the programmer who developed the app/webpage etc.
+A failure is related to an error, bug, fault or defect. Also, a program/app/webpage, sometimes finish with a bug in it, or an error etc., and this can be a failure
