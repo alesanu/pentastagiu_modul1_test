@@ -1,1 +1,4 @@
 What is regression? What is retesting?
+
+
+Regression testing is a form a testing usually done after a release in order to check that the functionalities of the platform still work and nothing was damaged during the release..

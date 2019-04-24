@@ -1,1 +1,18 @@
-Consider that you have found a defect in the form for the previous exercise. Create a bug report for it.
+Consider that you have found a defect in the form for the previous exercise. Create a bug report for it..
+
+
+
+Description: Login form does not work after inserting correct credentials. 
+Environment: Testing Env.
+Prerequisites: User is on the login page 
+
+Actions: 
+
+ 1. Insert correct username
+ 2. Insert correct password 
+ 3. Press login button 
+
+Expected results: User is logged in. 
+Actual results: User receives "Error message" when clicking on the login button. 
+Attached file(s): ScreenshotLogin.png
+Note(s): 

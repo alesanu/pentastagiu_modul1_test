@@ -1,1 +1,5 @@
 Name the difference between agile & v-model. (Please specify some roles and cycles for these)
+
+
+Agile approaches to achieve working application, at the end of each iteration (sprint). 
+V-model does not have any iterations..

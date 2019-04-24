@@ -1,1 +1,10 @@
 Please state what is black box testing? How about white box testing? You can also give an example.
+
+
+Black box testing usually corelated with manual testing reffers to the visual elements to the tester, something that he can interract. 
+White box testing corelated with automation testing reffers to the code that is behind the visual elements that do the entire functionality of a application. 
+
+Example: Testing a login form. We have a username, password field and a 'forgot password' and a 'login' button. Doing black box testing on the form would require to try different scenarios in order
+to check that the login form works(use correct username, wrong password, try to login without a password, etc). 
+Doing white box testing would require for the tester to know what's behind that login button, what exactly the system does when the credentials are inserted and login button is pressed..
+

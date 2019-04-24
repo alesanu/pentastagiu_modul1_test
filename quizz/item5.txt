@@ -1,3 +1,29 @@
 In the images folder you have a login form. Create Test Cases for the given form.
 
-Please state the testing types(functional, non-functional, black box, white box, design technique) for each TC created.
+Please state the testing types(functional, non-functional, black box, white box, design technique) for each TC created..
+
+
+
+
+Functional: Verify that the user can login with an existing account
+
+Test case steps: 
+1. Insert correct username
+2. Insert correct password 
+3. Click sign in
+
+Test case results:
+1. 
+2. 
+3.
+
+Non-functional: Check how many users can login simultaneously 
+
+1. 
+
+Black box: 
+
+White box: 
+
+Design technique: Use case testing 
+
