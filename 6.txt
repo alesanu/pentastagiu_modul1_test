@@ -1,7 +1,12 @@
-short descpirion: login the wrong account
+short descpirion: sign in to a diffrent account
+enviorment : sign in page
 severity : high
 priority : high
-steps : i inserted username : ceva and pass : altceva and the page redirected me to a diffrent account
+steps : i inserted username : ceva and pass : altceva and hit the sign in button and the page redirected me to a diffrent account
 actual result : diffrent account
 expected resutl : connect to the specific account.
+logs : log.txt
+screenshot : 1.png, 2.png, 3.png
+
+
 

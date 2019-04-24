@@ -3,4 +3,10 @@ test cases:
 
 2. enter a incorrect username, password and click connect sign in 
 
-3. 
+3. press the sign in button on the slider, press the sign up button on the slider
+
+4. press the sign in(sign up) button on the form with enpty fields
+
+5. enter special characters in username/pass inputs and smash dat sign in button
+
+6. enter a existing email in sign up form.
