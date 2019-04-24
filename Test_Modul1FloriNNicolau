@@ -1,0 +1,77 @@
+1. What is regression? What is retesting?
+
+Regression represents the testing of all the area of the code/functionalities that might have been affected during the solving of a bug. 
+Re-testing means testing again the functionality that did not work prior to repairing the bug.
+
+2. What is the relationship between the following: error, bug, defect, fault, failure.
+The terms are related causaly or can be considered synonimous, depending on the source. 
+
+3. Name the difference between agile & v-model. (Please specify some roles and cycles for these)
+Agile is an interative method - work is done in iterative cycles lasting between 2 weeks and two months, whereas the v-model is a "cascading" method - each stage takes place one after another.
+While testing is done early for both, only in Agile is the actual test execution done during each iteration. 
+Also, software is released after each iteration in Agile, whereas in V-model projects this is done only after the testing period (which follows the coding)
+
+Cycles for V-model: Requirement Design, System Design, Architecture Design, coding, component testing, system testing, acceptance testing
+
+Roles for agile: product owner, project manager, tester, developer, scrum master
+Roles for v-model: project manager, tester, developer
+
+4.  Please state what is black box testing? How about white box testing? You can also give an example.
+Black box testing represents testing without access tothe code. (e.g., functional tests) 
+White box testing represents testing with access to the code (e.g., unit testing)
+
+5. In the images folder you have a login form. Create Test Cases for the given form.
+
+Please state the testing types(functional, non-functional, black box, white box, design technique) for each TC created.
+
+Functional tests (black box): 
+	Registration:
+	Check if clicking the Sign Up button will take the user to the "Create Account" form
+ 	Check if pressing the facebook icon takes the user to the facebook login page
+	Check if pressing the Google+ icon takes the user to the Google+ login page
+	Check if pressing the Linkedin icon takes the user to the Linkedin login page
+
+	Check if registration can be done with the name field left blank or containing numbers or unallowed characters (we can use equivalence partitioning for this)
+	Check if registration can be done with the e-mail field left blank or with an invalid e-mail address format (format should be name@domain.last-part)
+	Check if registration can be done with the password field left blank or containing unallowed characters (we can use equivalence partitioning for this)
+	Check if valid registration data is added in the database 
+	Check if we can registrate two different users with the same user ID at the same time
+
+	Login
+	Check if pressing the Sign In button takes the user to the login form
+	Check if pressing the facebook icon takes the user to the facebook login page
+	Check if pressing the Google+ icon takes the user to the Google+ login page
+	Check if pressing the Linkedin icon takes the user to the Linkedin login page
+	Check if login is validated with an invalid username
+	Check if login is validated with an invalid password (using equivalence classes)
+	Check if we can login with valid login data
+	
+
+GUI tests (black box): 
+	- form displayed properly at different resolutions
+	- colours are displayed as per the specifications
+	- the company logo is displayed properly at different resolutions
+	- form is displayed properly on different browsers and OS
+
+
+Non-functional tests (black box)
+	- compatibility testing (accessible from different OS and browsers)
+	- load testing (how the website reacts at different numbers of users)
+	- stress testing (if the form functions properly when a large number of users attempt to create an account at the same time)
+	- security testing (if the error at wrong login specifies whether the username or password are broken)
+	- security testing (if you can login with the corret username but wrong password)
+	- white box testing (code testing)
+
+
+
+6.
+Subject: Registration with blank password allowed
+Build: 0.8
+Steps to take: 1. Go to the Diprella Sign Up form 2. Add a valid name and e-mail address 3. Leave password field blank
+Expected Result: Error "Password length is insufficient" is displayed
+Actual Result: Registration is validated
+Attached: log and .gif screen capture 
+
+
+
+
