@@ -1,1 +1,32 @@
 Consider that you have found a defect in the form for the previous exercise. Create a bug report for it.
+
+
+BUG REPORT:
+Found when testing: TC123
+Found By : Nicoleta Cajvan
+
+-Title/Short description of the bug:
+User is not able to login using valid credentials
+
+-Test data: 
+email:alabala@portocala.ro
+password: password123
+
+-Steps to reproduce the bug
+1. Fill in the Email and Password textboxes.
+2. Click in SIGN IN button
+
+-Expected result
+User logged in
+
+-Actual result
+User is not logged in and no error message is displayed
+
+-Environment
+Google Chrome, Safari
+
+-Status
+Fail
+
+-Priority
+High

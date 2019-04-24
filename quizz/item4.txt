@@ -1,1 +1,8 @@
 Please state what is black box testing? How about white box testing? You can also give an example.
+
+Answer: 
+When running white box testing, we have access to the code,to the internal stucture of the app and we know exactly what is happening in "backstage".
+Example: unit testing;
+
+When running black box techniques, we don't know what is happening in back end.
+Examples: Boundary value analysis,Equivalence partitioning;

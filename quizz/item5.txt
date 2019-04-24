@@ -1,3 +1,82 @@
 In the images folder you have a login form. Create Test Cases for the given form.
 
 Please state the testing types(functional, non-functional, black box, white box, design technique) for each TC created.
+
+
+TC1. Functional,black box testing
+-Title
+Create account with valid credentials.
+
+-Test data
+email:alabala@portocala.ro
+password: password123
+
+-Steps
+1. Click on SIGN UP button
+2. Fill in Name, Email,Passwork with valid credentials.
+3.Click on Sign up button
+
+-Expected result
+New account created.
+
+-Environment
+Google Chrome,Safari
+
+TC2. Non-functional testing
+-Title
+Check how many users can login to the app
+
+-Test data
+email:alabala+X@portocala.ro,x=[1-1000]
+password: password123
+
+-Steps
+1. 1000 users logged to the app using correct credentials
+
+-Expected result
+All users are loged in
+
+-Environment
+Google Chrome browser
+1000 users
+
+TC3. design technique
+-Title
+Check that all textboxes on Create Account form have placeholders, with correct style
+-Test data
+Not needed
+
+-Steps
+1. Click on SIGN UP button
+2. Check each text box
+
+-Expected result
+All textboxes have placeholders and use the correct style
+
+-Environment
+Google Chrome, Safari
+
+
+TC4. White-Box
+-Title
+Check the password to contain minimum 6 characters
+
+-Steps
+1. Check if the field is not empty
+2. Check the field input size to be >= 6
+
+-Expected result
+The test should pass if the input has the size >=6
+
+-Environment
+Google Chrome, Safari
+
+
+string passwordInput is textbox1.text
+if!passwordInput not empty
+	if passwordInput.size >= 6
+		test passes
+	else
+		test fails
+	endif
+endif

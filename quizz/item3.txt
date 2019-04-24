@@ -1,1 +1,5 @@
 Name the difference between agile & v-model. (Please specify some roles and cycles for these)
+
+Answer: 
+When using Agile methodologiy, the testing is run after each feature implementation.
+When using v-model, the testing is run at the end of the project implementation.

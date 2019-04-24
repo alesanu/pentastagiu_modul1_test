@@ -1,1 +1,7 @@
 What is the relationship between the following: error, bug, defect, fault, failure.
+
+
+Answer: 
+The error is made by the user;
+This error leads to a defect (called bug or fault).
+Defects left in the build rise to failure in certain environments.
