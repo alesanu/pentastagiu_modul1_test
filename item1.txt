@@ -1,0 +1,7 @@
+What is regression? What is retesting?
+
+Regression Testing is a type of software testing executed to check whether a code change has not unfavorably disturbed current features and functions of an Application.
+
+Re-testing is a type of testing performed to check the test cases that were unsuccessful in the final execution are successfully pass after the defects are repaired.
+
+

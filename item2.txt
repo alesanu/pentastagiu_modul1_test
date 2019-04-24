@@ -1,0 +1,11 @@
+What is the relationship between the following: error, bug, defect, fault, failure.
+
+Error - An error could arise because of a coding mistake by the developer, he misunderstood, or the requirement was not clear enough. For example, a developer may misinterpret a design flow, or he might use an incompatible data type which results in an Error. Some actions like insufficient array limit, loop getting into the infinite loop or invalid syntax cause to errors. 
+
+Bug - A bug occurs because of some coding error and leads a program to malfunction. It may also lead to a functional issue in the product. These are fatal errors that could block a functionality, results in a crash, or cause performance bottlenecks. 
+
+Defect - Is a condition in a software product which does not meet a software requirement or end-user expectation. In other words, a defect is an error in coding or logic that causes a program to malfunction or to produce incorrect/unexpected results.
+
+Fault - A fault makes an application behave in a wrong manner. The problems like an invalid step, lack of resources or inappropriate data definition could cause a fault in a program. It may happen in software because the developer has not added the code for fault tolerance.
+
+Failure - A failure indicates a fatal issue in software or in its module which is making the system inoperative or unresponsive. Such an error in the software which the end customer reports are a Failure.

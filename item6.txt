@@ -1,0 +1,9 @@
+Consider that you have found a defect in the form for the previous exercise. Create a bug report for it.
+
+Title:	Possibility of Sign Up without completing any fields					
+	
+Steps										
+1	No fields are completed					
+2	Click buton "SIGN UP"					
+Actual:	The user can register on the site					
+Expected: Error/Warning Message					

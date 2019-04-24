@@ -1,0 +1,11 @@
+Name the difference between agile & v-model. (Please specify some roles and cycles for these)
+
+The V-Model and Scrum provide great promise to projects who adopt them. However, if either methodology is implemented with partial understanding of it, it can be harmful for the project in the long run.
+
+The V-model provides guidance to test managers and other project leaders involved in software projects, on how to be successful in realizing their projects. This model is pretty popular amongst test managers and some also call it the verification and validation model.
+
+There is also an agile way of working for test managers, one of it being Scrum. It is important to know the difference between the various agile techniques such as Scrum and the V-Model because it is often confused to be similar. This confusion could have damaging effects on projects in terms of time, money and resources.
+
+The V-Model has several practical benefits for a test manager such as diligence in implementing all testing process steps, a high quality end product, testing preparation occurring in tandem with development, and good overall documentation for testing. Unlike waterfall methodologies, V-Model encourages testing preparation to occur in parallel with requirements, design, and development phases and this ideology may be the only similarity between the V-Model and agile forms of testing.
+
+However, V-Model can be rigid and less flexible in comparison to agile methodologies. The Scrum framework is built so that the team can be prepared to handle change but the V-Model has a different purpose geared towards increasing productivity of the testing processes. In this sense, the rigidity of the V-Model can conflict with the agile culture in the organisation and may cause unnecessary tensions and confusion. Hence, as a test manager it is best to know clearly the fundamentals of both the V-Model and Scrum, before having your team adopt one of them.
