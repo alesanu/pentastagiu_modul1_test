@@ -1,1 +1,4 @@
-What is the relationship between the following: error, bug, defect, fault, failure.
+
+
+
+hat is the relationship between the following: error, bug, defect, fault, failure.The relationship is: From an error in the code we get a bug which translate to a defect which makes a fauly application which will get to failure to deliver what is supposed to, to do what is supposed to.
