@@ -1,3 +1,23 @@
 In the images folder you have a login form. Create Test Cases for the given form.
 
 Please state the testing types(functional, non-functional, black box, white box, design technique) for each TC created.
+
+Black box testing/Functional testing is applied here:
+TC for Create account module:
+1. Add Name
+2. Add valid Email
+3. Type password
+4. Click Sign up
+5. Account is created
+
+TC for Sign in module:
+1. Type valid email
+2. Type valid password
+3. Click Sign in CTA
+4. You are logged into the application
+
+1. If you don't remember the credentials, select Forgot password
+2. Type email address associated to your account
+3. Go to your email and generate a new password
+4. Create the new password
+5. Repeat the 4 steps from TC for Sign in module

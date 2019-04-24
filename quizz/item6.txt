@@ -1,1 +1,10 @@
 Consider that you have found a defect in the form for the previous exercise. Create a bug report for it.
+
+Steps to reproduce:
+1. You are on the Sign in page
+2. Click Forgot password
+3. Type the email address associated to your account
+4. Send the forgot password email
+
+Actual: No email address is being sent
+Expected: You should receive an email to generate a new password

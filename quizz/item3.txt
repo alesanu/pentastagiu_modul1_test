@@ -1,1 +1,20 @@
 Name the difference between agile & v-model. (Please specify some roles and cycles for these)
+
+Agile is focused client process. So, it makes sure that the client is continuously involved during every stage.
+
+Agile software development method assures that quality of the development is maintained
+The process is completely based on the incremental progress (iterantions or Sprints)
+
+Roles in Agile:
+Scrum Master
+PO/BA
+Developers
+Testers
+
+The V-model is an SDLC model where execution of processes happens in a sequential manner in a V-shape.
+The V-Model is an extension of the waterfall model and is based on the association of a testing phase for each corresponding development stage.
+
+Roles in V-model:
+Project Manager
+Developers
+Testers

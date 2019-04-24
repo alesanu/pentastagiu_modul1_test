@@ -1,1 +1,6 @@
 Please state what is black box testing? How about white box testing? You can also give an example.
+Black box testing is defined as a testing technique in which functionality of the Application Under Test is tested without looking at the internal code structure
+Examples: Functional, Non-functional, Regression, Smoke, Sanity etc
+
+White Box Testing is defined as the testing of a software solution's internal structure, design, and coding. In this type of testing, the code is visible to the tester
+Examples: Unit testing
