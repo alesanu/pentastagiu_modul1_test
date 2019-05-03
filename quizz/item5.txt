@@ -1,0 +1,114 @@
+In the images folder you have a login form. Create Test Cases for the given form.
+
+Please state the testing types(functional, non-functional, black box, white box, design technique) for each TC created.
+
+
+--Create account form--
+
+Test case 1 - Check the design of the create account form 
+Given I accessed the Diprella site, section Create account
+When I check the page
+Then I expect to see in the left side the Welcome Back form
+And in the right side the Create account form
+And all the info are visible and correctly displayed according to the requirements 
+
+Test case 2: - Check the colour of the page if these are according to the requirements 
+Given I accessed the Diprella site, section Create account
+When I check the page
+Then I expect to see the background and the text in white and green colour 
+
+Test case 3: - Check the text and not hidden 
+Given I accessed the Diprella site, section Create account
+When I check the text from the page
+Then I expected that the text to be correctly written 
+And not hidden 
+
+Test case 4: - Check the button Sign in from Welcome Back section
+Given I accessed the Diprella site, section Create account
+When I press on the Sigh in button from the left side of the page 
+Then I expect that a new page to be displayed in order to sing in with my credentials 
+
+Test case 5: - Check the Sign up button from Create account section without any data filled
+Given Given I accessed the Diprella site, section Create account
+When I press on the Sign up button 
+Then I expect that a pop-up to be displayed informing that the Name, Email and password are mandatory 
+
+
+Test case 6: Check the Sign up button from Create account section with valid data
+Given I accessed the Diprella site, section Create account
+When I want to create an account 
+And I fill the Name, Email and Password fields with valid data
+Then I expect that a new page be displayed informing that the new account was successfully created
+
+Test case 7: Check the Sign up button from Create account section with wrong data
+Given I accessed the Diprella site, section Create account
+When I want to create an account 
+And I fill the Name, Email and Password fields with wrong data like invalid email or a password that doesn't match the rules 
+Then I expect an pop-up be displayed informing that the email is invalid or the password doesn't correspond 
+
+Test case 8: Check if the those three buttons f, G, in are working 
+Given I accessed the Diprella site, section Create account
+When I press on the f button first
+Then I expect that new page be displayed in order to log in with Facebook 
+And
+When I press on the g button afterwords 
+Then I expect that the new page be displayed in order to log in with Gmail
+And 
+When I finally press the in button 
+Then I expect that the new page be displayed in order to log in with Linkedln
+
+
+--Sign in to Diprella form-- 
+
+Test case 1 - Check the design of the Sign in to Diprella form
+Given I accessed the Diprella site, section Sign in to Diprella 
+When I check the page
+Then I expect to see in the right side the Hello Friend form
+And in the left side the Sign in to Diprella form
+And all the info are visible and correctly displayed according to the requirements 
+
+Test case 2: - Check the colour of the page if these are according to the requirements 
+Given I accessed the Diprella site, section Sign in to Diprella
+When I check the page
+Then I expect to see the background and the text in white and green colour 
+
+Test case 3: - Check the text and not hidden 
+Given I accessed the Diprella site, section Sign in to Diprella
+When I check the text from the page
+Then I expected that the text to be correctly written 
+And not hidden 
+
+Test case 4: - Check the button Sign in from Welcome Back section
+Given I accessed the Diprella site, section Sign in to Diprella
+When I press on the Sigh in button from the left side of the page 
+Then I expect that a new page to be displayed in order to sing in with my credentials 
+
+Test case 5: - Check the Sign up button from Sign in to Diprella section without any data filled
+Given Given I accessed the Diprella site, section Sign in to Diprella
+When I press on the Sign up button 
+Then I expect that a pop-up to be displayed informing that the Email and password are mandatory 
+
+Test case 6: Check the Sign up button from Sign in to Diprella section with valid data
+Given I accessed the Diprella site, section Sign in to Diprella
+When I want to sign in
+And I fill Email and Password fields with valid data
+Then I expect that a new page be displayed and to be logged into the app
+
+Test case 7: Check the Sign up button from Sign in to Diprella section with wrong data
+Given I accessed the Diprella site, section Sign in to Diprella
+When I want to sign in
+And I fill the Email and Password fields with wrong data like invalid email or a password that doesn't match the rules 
+Then I expect an pop-up be displayed informing that the email is invalid or the password doesn't correspond 
+
+Test case 8: Check if the those three buttons f, G, in are working 
+Given I accessed the Diprella site, section Sign in to Diprella
+When I press on the f button first
+Then I expect that new page be displayed in order to sign up with Facebook 
+And
+When I press on the g button afterwords 
+Then I expect that the new page be displayed in order to sign up with Gmail
+And 
+When I finally press the in button 
+Then I expect that the new page be displayed in order to sign up with Linkedln
+
+
