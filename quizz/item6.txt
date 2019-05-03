@@ -1,1 +1,29 @@
 Consider that you have found a defect in the form for the previous exercise. Create a bug report for it.
+
+Issue type: Bug
+
+Summary: Design issue 
+
+Priority: Major 
+
+Severity: Major 
+
+Components: Deprella site, for the Create account form and one for Sing in to Diprella form
+
+Assignee: Test user
+
+Short description: There are two big bug, one for the Create account form and one for Sing in to Diprella form. Both of them are related to the same issue design like in the print screens attached.
+These bugs have are different reproduced. For example the pages which offer the possibility to switch to Sing in or Sign up (for two scenario, related to each form:  Create account form and one for Sing in to Diprella form) cover in different ways the main functionality in order to create account or sign in. Because these are close related I decided to log a single bug with this short description and add 3 story points. 
+
+Attachment: Print screens added 
+
+Story points: 3
+
+Browser Type & Version: Chrome, Mozzila and IE
+
+Environment: Production 
+
+
+
+
+ 

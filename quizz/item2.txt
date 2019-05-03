@@ -1,1 +1,10 @@
 What is the relationship between the following: error, bug, defect, fault, failure.
+
+
+An error can be a misunderstanding on the side of a developer or a mistake (an example, wrong credentials or misunderstanding of syntax. 
+A bug is the result of a coding error. 
+A defect is just a kind of error after the application goes into production. Is a variance between expected and actual result. 
+A fault can be an incorrect process or step in a program that can cause an incorrect behaviour. 
+A failure is just a defect that appear after the application run in production and can be defined as a inability of a part of system to perform what it is required. 
+
+

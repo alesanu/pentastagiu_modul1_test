@@ -1,1 +1,10 @@
 Name the difference between agile & v-model. (Please specify some roles and cycles for these)
+
+
+V-model is based on the relationships between each phase of the development life cycle as described Waterfall model and it's associated to the phase of testing.
+Cycle : 
+At the top of the left V line, are the High level concepts.
+At the bottom of the V is the coding phase.
+At the top right V line is the released product.
+
+Agile method is designed to break the software down into manageable parts that can be delivered earlier to the customer. The important cycle is that the iterative nature of agile development means features are delivered incrementally, enabling some benefits to be realised early as the product continues to develop.

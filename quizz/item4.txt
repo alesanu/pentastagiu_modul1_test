@@ -1,1 +1,6 @@
 Please state what is black box testing? How about white box testing? You can also give an example.
+
+
+
+Black Box Testing is a software testing method in which the internal structure of the item being tested is not known to the tester.Example Acceptance testing (Alpha , Beta)
+White Box Testing is a software testing method in which the internal structure of the item being tested is known to the tester. Example Unit testing, Integration testing 
