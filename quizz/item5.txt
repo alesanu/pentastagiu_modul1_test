@@ -1,0 +1,36 @@
+In the images folder you have a login form. Create Test Cases for the given form.
+
+Please state the testing types(functional, non-functional, black box, white box, design technique) for each TC created.
+
+A. Functional test scenarios: 
+a. Blackbox:
+
+1. Create account successfully with facebook
+2. Create account successfully with G+
+3. Create account successfully with in
+4. Create account successfully filling in the form with valid inputs
+5. Sign is successfully with already created account
+6. depending on the specs, boundary and equivalence partitioning on each of the fields;
+
+
+Negative scenarios: 
+1. Create account with invalid format for the filed name
+2. Create account with invalid format for the filed email
+3. Create account with invalid format for the filed password
+4. Create account with empty field (s) (one field empty, more fields empty)
+5. Create account with already registered email address (same with F, G+, in)
+
+b. Grey box
+1. validate the data for new registered account is correctly saved in the data base 
+
+Non functional:
+
+1. login with 1=1 or a always true sql
+2. create user - login - logout - validate that correct logout is done and session is no longer active
+3. create large number of accounts (maybe a backend service can be used for this) and validate they are create correctly 
+4. create 2 account in the same time (maybe a backend service can be used for this) and validate that they are both created correctly;
+5. fill in create account form with valid data - back - forward - validate that data sensitive data are no longer in the fields
+6. make sure that password is encoded
+
+Note: I have included only the scenarios so for now, the tests cases will follo
+

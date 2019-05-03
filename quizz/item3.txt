@@ -1,0 +1,8 @@
+Name the difference between agile & v-model. (Please specify some roles and cycles for these)
+
+The agile methodology is using a sequential  model, which means that features are developed in iterations which include: planning and defining  requirements  --> design --> development --> testing and feedback phase --> implementation. 
+
+The agile roles are: scrum master, product owner and development team;
+
+The  V-model approach has well defined stages and the for every development phase & specification phase, a test phase is also associated. It is considered like an extension of the waterfall model. The test planning is done while the software is under development and the execution after coding.
+For example, the requirements specifications phase goes together with the acceptance test planning and acceptance testing after code is done ; for functional specification we have system testing planning and system testing , for technical specification we would have integration test planning and then integration testing and so on.

@@ -1,0 +1,7 @@
+What is the relationship between the following: error, bug, defect, fault, failure.
+
+All of these terms are used when the application under test is not behaving as expected. 
+However, the terminology used varies depending on the development life cycle and the role of the person using using it. 
+ The error is usually associated with a mistake in code which leads to fault.
+Bug and defect terms are both used for issues found in the application. The main difference is that a defect is considered when the issue is found and fix by dev before the testing phase while bug" is the issue found and raised on testing phase.
+The term failure is associated with production issues found by the end users
