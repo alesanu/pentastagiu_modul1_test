@@ -1,1 +1,10 @@
 Please state what is black box testing? How about white box testing? You can also give an example.
+
+Black box is a test technique where the code is not known and the test cases & scenarios are done based on the specifications. It is a specification based testing. 
+For example, given we have a login form, the specifications should include what fields we should have, what the name of each field is, how the input should be for each field (how many characters, what characters, etc), what output to expect in case of correct input, what output to expect in case invalid input, etc. All the tests will be according to the acceptance criteria in these specifications.
+
+The white box testing required code access and reading knowledge. For this technique, the test cases/scenarios are driven form the code itself and not from the specification. This means that tests would be done so that each decision, loop, statement etc. of the code is exercised. 
+For example, for a given field in a login form, the code includes a decision stating that if more then 24 characters then show message "the maximum number of of characters accepted is 24".
+In this case the tests will be: 1. input more than 24 characters; 2.. input less than 24 characters;
+
+

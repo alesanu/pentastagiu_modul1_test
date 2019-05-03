@@ -1,1 +1,6 @@
 What is regression? What is retesting?
+
+Retesting consists of testing the fix of an issue/bug, testing that the issue itself can no longer be reproduced; 
+Regression testing consists of testing that a fix in one part of the application has not affected anything else;
+
+For example: if we consider a login form, we can retest a fix on a given field for example (like: username filed should not accept special characters)  and as regression we would test if user can still login successfully  

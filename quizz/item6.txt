@@ -1,1 +1,26 @@
 Consider that you have found a defect in the form for the previous exercise. Create a bug report for it.
+
+Issue type: Bug
+
+Summary: Wrong email format in account registration page is accepted
+
+Priority: Major
+
+Impact: Large
+
+Description:
+
+Accounts can be successfully create with invalid email address.
+
+Steps to reproduce:
+
+1. On the account registration form, fill in the Name and password fields with correct values
+2. Add an invalid format on the email filed (for example '0912test"
+3. Click on sign up to submit
+
+Expected result: 
+Error is returned with message related to the incorrect format of the filed "email"
+
+Actual result:
+The account is created successfully and the welcome page is loaded
+
