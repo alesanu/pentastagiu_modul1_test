@@ -1,1 +1,21 @@
 Name the difference between agile & v-model. (Please specify some roles and cycles for these)
+
+One key difference between the two is flexibility. V-model is rigid, sequential, easier to manage though, while agile allows making changes in any phase.
+From a testing perspective, in the v-model each phase is tested separateley, while in agile testing is done after each release.
+
+V-model phases could be:
+(1) Requirement specification
+(2) Functional specification
+(3) Technical specification
+(4) Program specification
+(5) Code
+(6) Unit testing
+(7) Integration testing
+(8) System testing
+(9) Acceptance testing
+
+Agile phases could be:
+(1) Define iteration requirement.
+(2) Build iteration.
+(3) Test iteration.
+This sequence would be repeated for each iteration until an acceptable product has been developed.

@@ -1,1 +1,7 @@
 Please state what is black box testing? How about white box testing? You can also give an example.
+
+Black-box (or specification-based) testing is not using any information regarding the internal structure of the component or the system under test when creating test cases.
+White-box (or structure-based) testing is based on deriving test cases directly from the structure of a component or system.
+
+Black-box testing - a google search by using keywords
+White-box testing - by input to check and verify loops

@@ -1,3 +1,36 @@
 In the images folder you have a login form. Create Test Cases for the given form.
 
 Please state the testing types(functional, non-functional, black box, white box, design technique) for each TC created.
+
+Functional Test Cases:
+
+-Signin:
+* Verify that when pressing the Diprella icon on the top left the user is taken to the correct page, home page in most cases.
+* Verify if a user will be able to login with a valid email and valid password.
+* Verify if a user cannot login with a valid email and an invalid password.
+* Verify if a user cannot login with a invalid email (actual email address and random character string) and valid password.
+* Verify if a user will be able to login using social media account while already logged into the specific account.
+* Verify if a user will be able to login using social media account while not being logged into the specific account - the user should be redirected to the social media service login page and once logged in there redirected to their Diprella account maybe?
+* Verify the login form when email and password fields are blank and Signin button is clicked.
+* Verify the ‘Forgot your Password’ functionality.
+* Verify the messages for invalid login.
+* Verify if the data in password field is either visible as asterisk or bullet signs.
+* Verify if a user is able to login with a new password only after he/she has changed the password.
+* Verify if the login form allows to log in simultaneously with different credentials in a different browser.
+* Verify the time taken to log in with a valid email and password.
+* Verify if design of the Login form is as per the requirements.
+* Verify the login form and all its controls in different browsers.
+
+-Signup:
+* Verify if the user is able to signup using details matching the requirements(name, email, password).
+* Verify if the user cannot signup using details not matching the requirements(name, email, password).
+* Verify if the user can signup using their social media accounts if they're already logged in.
+* Verify if the user cannot signup if not already logged into their social media accounts.
+* Verify if the the password is hidden behind asterisk/bullet signs.
+* Verify if the user is able to create multiple accounts using the same email address & social media account - usually this is not allowed.
+
+Non-functional Security Test Cases:
+* Verify if a user cannot enter the characters more than the specified range in each field (Name, Email and Password).
+* Verify the login page by pressing ‘Back button’ of the browser. It should not allow you to enter into the system once you log out.	
+* Verify the implementation of SSL certificate.	
+

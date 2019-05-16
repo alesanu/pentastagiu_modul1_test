@@ -1,1 +1,20 @@
 Consider that you have found a defect in the form for the previous exercise. Create a bug report for it.
+
+
+Title: Users created with social media acconunts cannot login into their Diprella accounts
+
+Build, environment: 1.0, Live
+
+Severity: High
+
+Priority: High
+
+Steps: Go to login form, click on any of the social media icons
+
+Actual result: A pop-up shows up, the user is able to enter user, password and after clicking login, the pop-up closes and is redirected to a blank page
+
+Expected result: The user should be able to login using their social media account.
+
+Logs: n/a
+
+Screenshot, movie: n/a
